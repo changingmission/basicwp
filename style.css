@@ -1,0 +1,13 @@
+/*
+Theme Name: Basic WP Theme
+Theme URI: https://www.ishant.net
+Author: Ishant Sitaula
+Author URI: https://www.ishant.net
+Description: My wonderful theme.
+Version: 0.0
+Text Domain: basicwp
+*/
+img{
+  max-width: 100%;
+  height: auto;
+}

@@ -10,6 +10,9 @@
                 <div class="col-6">On: <?php the_date();?></div>
                 <div class="col-6">By: <?php the_author();?></div>
               </div>
+              <div class="row"><div class="col-12">
+                <div class="addthis_inline_share_toolbox"></div>
+              </div></div>
               <hr>
             </div>
             <?php the_content();?>

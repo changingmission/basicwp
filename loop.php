@@ -24,4 +24,4 @@
       <!-- .col-md-8 -->
     </div>
   </div>
-  <?php endwhile; basic_paging(); wp_reset_postdata(); endif;?>
+  <?php endwhile; basic_paging(); else: echo '<h2>No posts found.</h2>'; wp_reset_postdata(); endif;?>
